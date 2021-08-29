@@ -1,0 +1,127 @@
+[
+{
+     "name": "Yoda",
+     "budget": 5,
+     "image": "https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png"
+   },
+{
+     "name": "Luke Skywalker",
+     "budget": 5,
+     "image": "https://static.wikia.nocookie.net/starwars/images/3/3d/LukeSkywalker.png"
+   },
+{
+     "name": "Leia Organa",
+     "budget": 5,
+     "image": "https://static.wikia.nocookie.net/starwars/images/f/f1/Leia_Organa_TROS.png"
+   },
+{
+     "name": "Rey Skywalker",
+     "budget": 5,
+     "image": "https://static.wikia.nocookie.net/starwars/images/2/2b/Rey_TROS_Fathead.png"
+   },
+{
+     "name": "Anakin Skywalker",
+     "budget": 5,
+     "image": "https://static.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png"
+   },
+{
+     "name": "Mace Windu",
+     "budget": 4,
+     "image": "https://static.wikia.nocookie.net/starwars/images/f/fc/Mace_Windu.jpg"
+   },
+{
+     "name": "Obi-Wan Kenobi",
+     "budget": 4,
+     "image": "https://static.wikia.nocookie.net/starwars/images/4/4e/ObiWanHS-SWE.jpg"
+   },
+{
+     "name": "R2-D2",
+     "budget": 4,
+     "image": "https://static.wikia.nocookie.net/starwars/images/e/eb/ArtooTFA2-Fathead.png"
+   },
+{
+     "name": "Padmé Amidala",
+     "budget": 4,
+     "image": "https://static.wikia.nocookie.net/starwars/images/b/b2/Padmegreenscrshot.jpg"
+   },
+{
+    "name": "Finn / FN-2187",
+    "budget": 4,
+    "image": "https://static.wikia.nocookie.net/starwars/images/1/1a/Finn-TSWB.png"
+  },
+{
+     "name": "Poe Dameron",
+     "budget": 3,
+     "image": "https://static.wikia.nocookie.net/starwars/images/8/8a/Poe_Dameron_Advanced_Graphics_TROS.png"
+   },
+{
+    "name": "Chewbacca",
+    "budget": 3,
+    "image": "https://static.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png"
+  },
+{
+     "name": "Qui-Gon Jinn",
+     "budget": 3,
+     "image": "https://static.wikia.nocookie.net/starwars/images/f/f6/Qui-Gon_Jinn_Headshot_TPM.jpg"
+   },
+{
+     "name": "Han Solo",
+     "budget": 3,
+     "image": "https://static.wikia.nocookie.net/starwars/images/e/e2/TFAHanSolo.png"
+   },
+{
+     "name": "Wedge Antilles",
+     "budget": 2,
+     "image": "https://static.wikia.nocookie.net/starwars/images/b/b2/WedgeAntilles-Masterwork2020.png"
+   },
+{
+     "name": "Lando Calrissian",
+     "budget": 3,
+     "image": "https://static.wikia.nocookie.net/starwars/images/2/29/LandoCalrissian-TROSOCE.png"
+   },
+{
+     "name": "Admiral Gial Ackbar",
+     "budget": 2,
+     "image": "https://static.wikia.nocookie.net/starwars/images/2/29/Admiral_Ackbar_RH.png"
+   },
+{
+     "name": "Rose Tico",
+     "budget": 2,
+     "image": "https://static.wikia.nocookie.net/starwars/images/c/c9/Rose_Tico_TROSOCE.png"
+   },
+{
+     "name": "C-3P0",
+     "budget": 1,
+     "image": "https://static.wikia.nocookie.net/starwars/images/3/3f/C-3PO_TLJ_Card_Trader_Award_Card.png"
+   },
+{
+     "name": "Amilyn Holdo",
+     "budget": 2,
+     "image": "https://static.wikia.nocookie.net/starwars/images/a/a4/Holdo-Elle.png"
+   },
+{
+     "name": "BB-8",
+     "budget": 2,
+     "image": "https://static.wikia.nocookie.net/starwars/images/6/68/BB8-Fathead.png"
+   },
+{
+     "name": "Din Djarin",
+     "budget": 1,
+     "image": "https://static.wikia.nocookie.net/starwars/images/8/8a/DinDjarinSansHelmet-TMCh16.png/"
+   },
+{
+     "name": "Jar Jar Binks",
+     "budget": 1,
+     "image": "https://static.wikia.nocookie.net/starwars/images/d/d2/Jar_Jar_aotc.jpg"
+   },
+{
+     "name": "Ewoks",
+     "budget": 1,
+     "image": "https://static.wikia.nocookie.net/starwars/images/a/a8/Ewoks_Encyclopedia.png"
+   },
+{
+     "name": "Ahsoka Tano",
+     "budget": 1,
+     "image": "https://static.wikia.nocookie.net/starwars/images/1/12/AhsokaTano-AG.png"
+   }
+  ]
