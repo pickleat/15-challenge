@@ -8,22 +8,22 @@
   align-items: center;
 
   .orange{
-    color: #e09200;
+    color: $orange;
   }
   .purple{
-    color: #aa7cff;
+    color: $purple;
   }
   .teal{
-    color: #00e0c2;
+    color: $teal;
   }
   .lime{
-    color: #abd830;
+    color: $lime;
   }
   .white{
     color: $white;
   }
   .pink{
-    color: #d830ae;
+    color: $pink;
   }
   .row-amount{
     z-index: -1;
