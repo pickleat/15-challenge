@@ -1,0 +1,14 @@
+// Styling for Amount Remaining Component
+
+.amount-remaining {
+  text-align: center;
+  margin: .5rem .5rem 1rem;
+
+  h2 {
+    font-size: 2rem;
+    margin: 0 0 .25rem;
+    .budget-remaining{
+      color: $lime;
+    }
+  }
+}
