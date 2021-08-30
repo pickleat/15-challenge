@@ -1,0 +1,46 @@
+// Character Row Styles
+.character-row{
+  display: flex;
+  width: 60rem;
+  justify-content: space-between;
+  
+  margin: 1rem auto;
+  align-items: center;
+
+  .orange{
+    color: #e09200;
+  }
+  .purple{
+    color: #aa7cff;
+  }
+  .teal{
+    color: #00e0c2;
+  }
+  .lime{
+    color: #abd830;
+  }
+  .white{
+    color: $white;
+  }
+  .pink{
+    color: #d830ae;
+  }
+  .row-amount{
+    z-index: -1;
+    margin-right: -4rem;
+    margin-left: 2rem;
+    font-size: 6rem;
+    font-weight: bold;
+    position: relative;
+    border: solid .25rem currentColor;
+    border-radius: 9999px;
+    padding: 0 2rem 0 2.5rem;
+
+    .dollar-superscript{
+      position: absolute;
+      top: 1.3rem;
+      left: 1.5rem;
+      font-size: 2rem;
+    }
+  }
+}
