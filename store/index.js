@@ -6,7 +6,10 @@ export const state = () => ({
 })
 
 export const mutations = {
-  alter(state) {
-    state.something = state.changed
-  }
+  subtractBudget(state, val) {
+    if(state.budget <= 0){
+      return
+    }
+    state.budget = state.budget - val
+  },
 }
