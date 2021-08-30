@@ -1,12 +1,13 @@
 
 <template class="character-card">
- <div class="character-button" >
-   <img :src="character.image" class="character-image" :alt="character.name"/>
- </div>
+ <button class="character-button" :class="{'selected' : isSelected, 'disabled' : !budgetRemaining}" :disabled="!budgetRemaining" :style="{backgroundImage:`url(${character.image})`}" @click="subtractBudget(character.budget); useChar()"  >
+   <div class="character-name">
+   </div>
+ </button>
 </template>
 
 <script>
-  // import { mapState } from 'vuex'
+  import { mapState, mapMutations } from 'vuex'
 
   export default {
     props: {
@@ -17,19 +18,25 @@
         },
       }
     },
+    data(){
+      return{
+        isSelected: false,
+      }
+    },
     computed: {
-      // ...mapState({
-      //   jedi: state => state.jedi.yoda
-      // })
+      ...mapState({
+        budget: state => state.budget
+      }),
+      budgetRemaining(){
+        return this.budget >= this.character.budget;
+      },
     },
     methods: {
-      useJedi(e){
-        this.$store.jedi.commit('jedi/useJedi', 'yoda dies')
-
-      }, 
-      // ...mapMutations({
-
-      // })
+      ...mapMutations(['subtractBudget']),
+      useChar(){
+        this.isSelected = true
+        this.budget -= this.character.budget
+      }
     }
   }
 </script>
