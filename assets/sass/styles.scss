@@ -7,6 +7,12 @@
 $black: #010101;
 $white: #f1f1f1;
 
+$orange: #e09200;
+$purple: #aa7cff;
+$teal: #00e0c2;
+$lime: #abd830;
+$pink: #d830ae;
+
 body {
   background-color: $black;
   color: $white;
@@ -17,5 +23,6 @@ body {
 @import "./pages/index.scss";
 
 // Components
+@import "./components/amount-remaining.scss";
 @import "./components/character-row.scss";
 @import "./components/character-card.scss";
