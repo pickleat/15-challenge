@@ -1,6 +1,8 @@
 <template>
   <div class="fifteen-challenge">
     <h1>$15 Challenge</h1>
+    <AmountRemaining />
+    <div class="character-area">
       <CharacterRow :value="5" color="orange"> 
         <CharacterCard v-for="character in five_dollar_characters" :key="character.name" :character="character"></CharacterCard>
       </CharacterRow>
@@ -16,6 +18,7 @@
       <CharacterRow :value="1" color="white">  
         <CharacterCard v-for="character in one_dollar_characters" :key="character.name" :character="character"></CharacterCard>
       </CharacterRow>
+    </div>
   </div>
 </template>
 
@@ -39,6 +42,7 @@ export default {
     ...mapState({
       // Get Initial State of our Characters
       characters: state => state.jedi.characters,
+      budget: state => state.budget
     }),
     organize(){
       // Loop through inital state and organize characters by their "budget"
