@@ -1,4 +1,10 @@
-# 15-challenge
+# $15 Challenge
+
+This is a demo of the classic $15 Challenge using VueJs, VueX, and NuxtJS. It allows users to choose a team of characters to defeat the darkside. It isn't built for production, but a simple dev server should work (see the "Build Setup" below).
+
+I used Sass, which I'm comfortable with. And used Nuxt becuase it's the simplest way to get Vue/VueX installed and not have to fiddle with configs. Looking back, I should have chosen to use Vue 2 because I wasn't able to show use of any of the older APIs mentioned in our call.
+
+Please feel free to ask any questions!
 
 ## Build Setup
 
@@ -16,6 +22,11 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+
+## 
+
+
+## NuxtJS Standard Readme
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
