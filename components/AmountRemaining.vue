@@ -1,7 +1,6 @@
 <template>
   <div class="amount-remaining"> 
     <h2>Budget Remaining: <span class="budget-remaining">${{budget}}</span></h2>
-    Save the Galaxy with only $15!
   </div>
 </template>
 
