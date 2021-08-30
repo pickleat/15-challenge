@@ -1,7 +1,7 @@
 // Character Row Styles
 .character-row{
   display: flex;
-  width: 60rem;
+  width: 52rem;
   justify-content: space-between;
   
   margin: 1rem auto;
@@ -27,8 +27,7 @@
   }
   .row-amount{
     z-index: -1;
-    margin-right: -4rem;
-    margin-left: 2rem;
+    margin-right: -3rem;
     font-size: 6rem;
     font-weight: bold;
     position: relative;
