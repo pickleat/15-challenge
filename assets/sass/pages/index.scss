@@ -3,12 +3,14 @@
 .fifteen-challenge {
 
   .character-area {
-    padding: 2rem;
+    padding: .5rem 1rem;
     border: solid $white 2px;
     border-radius: 1.5rem;
   }
   h1 {
+    font-size: 3rem;
     text-align: center;
+    margin: 0;
   }
 
   display: flex;
