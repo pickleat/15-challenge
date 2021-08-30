@@ -1,8 +1,8 @@
 <template>
-  <div class="fifteen-challenge">
+  <main class="fifteen-challenge">
     <h1>$15 Challenge</h1>
     <AmountRemaining />
-    <div class="character-area">
+    <section class="character-area">
       <CharacterRow :value="5" color="orange"> 
         <CharacterCard v-for="character in five_dollar_characters" :key="character.name" :character="character"></CharacterCard>
       </CharacterRow>
@@ -18,8 +18,8 @@
       <CharacterRow :value="1" color="white">  
         <CharacterCard v-for="character in one_dollar_characters" :key="character.name" :character="character"></CharacterCard>
       </CharacterRow>
-    </div>
-  </div>
+    </section>
+  </main>
 </template>
 
 <script>
