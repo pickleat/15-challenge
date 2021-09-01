@@ -44,6 +44,13 @@ export default {
       characters: state => state.jedi.characters,
       budget: state => state.budget
     }),
+  },
+  mounted() {
+    this.$nextTick(function(){
+      this.organize()
+    })
+  },
+  methods: {
     organize(){
       // Loop through inital state and organize characters by their "budget"
       this.characters.map((character) => {
